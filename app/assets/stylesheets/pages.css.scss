@@ -2,7 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
 body {
   background-color: #F5F5F1;
   }
@@ -11,5 +10,14 @@ body {
   text-align: center;
   background-color: white; 
   height: 300px;
+
+
+  h1 {
+  font-family: 'Helvetica Neue', Helvetica;
+  color: #484432;
+  font-size: 56px;
+}
+
+
   
 }
