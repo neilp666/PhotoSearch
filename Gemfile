@@ -15,4 +15,5 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
 gem 'instagram'
+gem 'figaro'
 
