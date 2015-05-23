@@ -1,10 +1,10 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(//fonts.googleapis.com/css?family=Pacifico|Open+Sans:300);
 
 body {
   background-color: #FAFAF5;
-
   }
 
 .jumbotron {
@@ -16,16 +16,24 @@ body {
 
   h1 {
   padding-top: 20px;
-  font-family: 'Helvetica Neue', Helvetica;
-  color: black;
-  font-size: 56px;
+  font-family: 'Pacifico', 'Helvetica Neue', Helvetica;
+  color: #330000;
+  font-weight: 400;
+  font-size: 4em;
 }
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #000;
+  }
 
 
   
 }
 
 
-.container {
 
-}
+
+

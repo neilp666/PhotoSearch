@@ -15,4 +15,8 @@ class PagesController < ApplicationController
     @tag = @tag.first.name
     @search = client.tag_recent_media(@tag)
   end
+
+  def about
+  end
+  
 end
