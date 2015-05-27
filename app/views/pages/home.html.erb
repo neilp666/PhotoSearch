@@ -18,7 +18,13 @@
     <div class="row">
         <% @search.each do |instagram| %>
         <div class="col-sm-8 col-md-4">
+          <div class="profile-panel">
+          <div class="image-circle">
+              <p>info</p>
+          </div>
+
            <div class="thumbnail"><%= image_tag instagram.images.low_resolution.url %></div>
+           </div>
         </div>
          <% end %>
     </div>
