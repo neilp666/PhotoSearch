@@ -30,6 +30,8 @@ p {
   }
 
 
+
+
   
 }
 
@@ -38,6 +40,18 @@ p {
   text-align: center;
 }
 
+.profile-panel {
+
+        position: relative;
+      
+    }
+
+    .profile-image {
+        position: absolute;
+      
+        left: 25px;
+        bottom: 10px;
+      }
 
 
     .follow-us-container
@@ -72,22 +86,7 @@ p {
         border-color: #434343;
     }
 
-    .profile-panel {
-
-        position: relative;
-
     
-      .image-circle {
-        position: absolute;
-        width: 64px;
-        height: 64px;
-        background: #00f; 
-        left: 25px;
-        bottom: 5px;
-        border-radius: 50px;
-        border: solid 3px white;
-      }
-    }
 
 
 
