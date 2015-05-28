@@ -84,6 +84,7 @@ GEM
     minitest (5.6.1)
     multi_json (1.11.0)
     multipart-post (2.0.0)
+    newrelic_rpm (3.9.0.229)
     pg (0.17.1)
     rack (1.5.3)
     rack-test (0.6.3)
@@ -151,6 +152,7 @@ DEPENDENCIES
   instagram
   jbuilder (~> 2.0)
   jquery-rails
+  newrelic_rpm
   pg
   rails (= 4.1.7)
   rails_12factor
