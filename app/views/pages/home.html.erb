@@ -13,9 +13,8 @@
   <br>
 </div>
 
-
 <div class="container">
-    <div class="row">
+  <div class="row">
         <% @search.each do |instagram| %>
         <div class="col-sm-8 col-md-4">
               <div class="profile-panel">
@@ -25,15 +24,13 @@
                    <div class="profile-image"><%= image_tag instagram.user.profile_picture %> %>
                    </div>
 
-               </div>
-
-               <p><%= instagram.caption.text %></p>
-      </div>
-
+              </div>
+                <p><%= truncate(instagram.caption.text, length: 40) %></p>
         </div>
-              <% end %>
-    </div>
+        <% end %>
+  </div>   
 </div>
+
 
 
 
