@@ -1,7 +1,9 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "jasny-bootstrap";
 @import url(//fonts.googleapis.com/css?family=Pacifico|Open+Sans:300);
+
 
 body {
   background-color: #FAFAF5;
@@ -90,5 +92,30 @@ p {
  text-align: center;
  font-family: 'Pacifico', 'Helvetica Neue', Helvetica;
 }
+
+
+
+// NAVBAR
+
+.navmenu-default, .navbar-default .navbar-offcanvas {
+ 
+  background-color: #FAFAF5;
+  color: black;
+}
+
+
+.navbar-toggle {
+  display: block;
+  float: left;
+  border: none;
+}
+
+.button-nav {
+  font-size: 30px;
+  color: #cccccc;
+  margin: 4px;
+}
+
+
 
 
